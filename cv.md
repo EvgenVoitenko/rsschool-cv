@@ -49,6 +49,14 @@
 ```
 ## __Education__
 
+* Sukhoi state technical university of gomel. Bachelor of Energy Engineering 2009 year
+* Sukhoi state technical university of gomel. Master's degree in energy engineering 2011 year
+
+## __Language__
+* Russian language
+* Belarusian
+* English in progress
+ 
 
 
 
