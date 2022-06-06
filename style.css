@@ -1,5 +1,6 @@
-dev {
+div {
     background-color: aqua;
+    border: 1px solid red;
 }
 img {
     width: 20%;
@@ -7,5 +8,29 @@ img {
 }
 body {
     font-family: Inconsolata, sans-serif;
-
+}
+header {
+    border: 1px solid red;
+}
+main {
+    border: 1px solid red;
+}
+footer {
+    border: 1px solid red;
+}
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+p {
+    border: 1px solid red;
+    background-color: aquamarine;
+    padding: 5px;
+    margin: auto;
 }
