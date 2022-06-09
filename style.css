@@ -10,6 +10,7 @@
 }
 img {
     width: 30%;
+    padding-left: 30px;
    
 }
 .name {
@@ -28,9 +29,12 @@ img {
 }
 .main {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     border: 1px solid red;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
 }
 .footer {
     border: 1px solid red;
@@ -51,16 +55,18 @@ img {
     padding: 0 20px;
     line-height: 50px;
     transition: .3s;
+    text-decoration: none;
 }
-p:hover {
+.link:hover {
     background-color: crimson;
 }
 
-p {
+.link {
     border: 1px solid red;
     background-color: #dcdcdc;
     padding: 5px;
     margin: auto;
+    
 }
 .footer { 
     display: flex;
@@ -73,8 +79,31 @@ p {
     border: 1px solid red;
     padding: 10px;
 }
-html {
+/* html {
     scroll-behavior: smooth;
 }
- 
+  */
+@media (max-width: 768px) {
+    .div {
+        width: 100%;
+    }
+    .code {
+        width: 100%;
+    }
+    .name {
+        width: 100%;
+    }
+}
+h3 {
+    padding: 10px;
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  ;
+}
+h1 {
+    padding: 20px;
+    /* text-align: center; */
 }
