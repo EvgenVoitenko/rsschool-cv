@@ -2,20 +2,28 @@
     box-sizing: border-box;
 }
 .div {
-    background-color: #dcdcdc;
-    border: 1px solid red;
+    background-color: #fffacd;
+    border: 1px solid #bdb76b;
     padding: 10px;
     width: 50%;
     margin: 0 auto;
 }
+.div-img {
+    background-color: #fffacdcdc;
+    /* border: 1px solid red; */
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+}   
+
 img {
     width: 30%;
     padding-left: 30px;
    
 }
 .name {
-    background-color: #dcdcdc;
-    border: 1px solid red;
+    background-color: #fffacd;
+    /* border: 1px solid red; */
     padding: 10px;
     width: 50%;
     text-align: center;
@@ -25,45 +33,48 @@ img {
 
 
 .header {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .main {
     display: flex;
     /* flex-direction: row; */
     flex-wrap: wrap;
-    border: 1px solid red;
+    border: 1px solid #bdb76b;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
 }
 .footer {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .body {
     font-family: Inconsolata, sans-serif;
     min-height: 100vh;
     margin: 0;
     padding: 0;   
-    background-color: #dcdcdc;
+    background-color: #fffacd;
 }
 .nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin: 15px;
 }
 .nav-list {
     padding: 0 20px;
     line-height: 50px;
     transition: .3s;
     text-decoration: none;
+    font-size: 18px;
 }
 .link:hover {
-    background-color: crimson;
+    background-color: #ffff00;
 }
 
 .link {
-    border: 1px solid red;
-    background-color: #dcdcdc;
+    border: 1px solid #bdb76b;
+    border-radius: 15px;
+    background-color: #fffacd;
     padding: 5px;
     margin: auto;
     
@@ -72,11 +83,23 @@ img {
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.footer-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    text-decoration: none;
+    width: 200 px;
+    margin: 15px;
+
 }
 .code {
     width: 50%;
-    background-color: #dcdcdc;
-    border: 1px solid red;
+    background-color: #fffacd;
+    border: 1px solid #bdb76b;
     padding: 10px;
 }
 /* html {
@@ -96,7 +119,7 @@ img {
 }
 h3 {
     padding: 10px;
-    background-color: aqua;
+    background-color: #ffd700;
     font-size: 20px;
     font-weight: 900;
     text-transform: uppercase;
@@ -105,5 +128,7 @@ h3 {
 }
 h1 {
     padding: 20px;
-    /* text-align: center; */
+}
+.pre-code {
+    max-width: auto;
 }
